@@ -12,7 +12,7 @@ A Cointegration and Vector Error Correction Model (VECM) analysis of how the exc
 Nigeria's external reserves are a critical buffer against balance-of-payments shocks and a key input into currency stability. This project asks a focused question: **how do the exchange rate, bank lending rate, personal remittances, and FDI inflows shape the level and short-run movement of reserves — and did the 2023 FX unification change those relationships?**
 
 <p align="center">
-  <img src="raw_series_charts_2.png" width="650" alt="Nigeria's external reserves, exchange rate, lending rate, remittances, and FDI, 2005-2024">
+  <img src="figures/raw_series_charts_2.png" width="650" alt="Nigeria's external reserves, exchange rate, lending rate, remittances, and FDI, 2005-2024">
 </p>
 
 Using 20 years of annual World Bank data, the analysis:
