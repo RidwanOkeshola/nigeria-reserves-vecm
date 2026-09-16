@@ -101,7 +101,7 @@ Twenty annual observations is a small sample for a five-variable VECM/VAR system
 
 **Ridwan Okeshola** — Financial/ Economic Analyst
 
-Feedback and questions welcome — feel free to open an issue or connect on [www.linked.com/in/ridwanokeshola](#).
+Feedback and questions welcome — feel free to open an issue or connect on [www.linked.com/in/ridwanokeshola](LinkedIn).
 
 ## License
 
