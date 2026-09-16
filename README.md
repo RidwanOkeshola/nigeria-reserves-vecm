@@ -35,7 +35,7 @@ Using 20 years of annual World Bank data, the analysis:
 </p>
 <p align="center"><em>The exchange rate explains 95%+ of the forecast-error variance in reserves, the lending rate, and remittances alike.</em></p>
 
-Full results, tables, and discussion are in [`report/economic_analysis_reserve_Report.docx`](report/Nigeria_Reserves_Econometric_Report.docx) and the summary deck in [`report/economic_analysis_reserve.pptx`](report/Nigeria_Reserves_Econometric_Analysis.pptx).
+Full results, tables, and discussion are in [`report/Nigeria_Reserves_Econometric_Report.docx`](report/economic_analysis_reserves.docx) and the summary deck in [`report/Nigeria_Reserves_Econometric_Analysis.pptx`](report/economic_analysis_reserves.pptx).
 
 <details>
 <summary><strong>See the impulse response functions (click to expand)</strong></summary>
