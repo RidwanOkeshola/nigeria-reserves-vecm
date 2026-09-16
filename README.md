@@ -1,10 +1,19 @@
 # Determinants and Dynamics of Nigeria's External Reserves (2005–2024)
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
+![Statsmodels](https://img.shields.io/badge/statsmodels-VECM-informational)
+![License](https://img.shields.io/badge/license-Educational%20Use-lightgrey)
+![Status](https://img.shields.io/badge/status-Complete-brightgreen)
+
 A Cointegration and Vector Error Correction Model (VECM) analysis of how the exchange rate, lending rate, remittances, and FDI relate to Nigeria's external reserves — including a structural break test for the June 2023 FX float.
 
 ## Overview
 
 Nigeria's external reserves are a critical buffer against balance-of-payments shocks and a key input into currency stability. This project asks a focused question: **how do the exchange rate, bank lending rate, personal remittances, and FDI inflows shape the level and short-run movement of reserves — and did the 2023 FX unification change those relationships?**
+
+<p align="center">
+  <img src="raw_series_charts_2.png" width="650" alt="Nigeria's external reserves, exchange rate, lending rate, remittances, and FDI, 2005-2024">
+</p>
 
 Using 20 years of annual World Bank data, the analysis:
 - Tests all five series for unit roots (ADF, KPSS)
@@ -21,7 +30,20 @@ Using 20 years of annual World Bank data, the analysis:
 - The exchange rate explains **95.7% of the 5-year-ahead forecast error variance** in reserves — a striking concentration of shock exposure
 - FDI is the outlier: more driven by its own shocks (17.8%) than by the exchange rate, and its post-float trajectory is ambiguous
 
-Full results, tables, and discussion are in [`report/Nigeria_Reserves_Econometric_Report.docx`](report/Nigeria_Reserves_Econometric_Report.docx) and the summary deck in [`report/Nigeria_Reserves_Econometric_Analysis.pptx`](report/Nigeria_Reserves_Econometric_Analysis.pptx).
+<p align="center">
+  <img src="figures/fevd_charts_3.png" width="500" alt="Forecast error variance decomposition showing the exchange rate dominates nearly every variable in the system">
+</p>
+<p align="center"><em>The exchange rate explains 95%+ of the forecast-error variance in reserves, the lending rate, and remittances alike.</em></p>
+
+Full results, tables, and discussion are in [`report/Nigeria_Reserves_Econometric_Report.docx`](report/economic_analysis_reserve_Report.docx) and the summary deck in [`report/Nigeria_Reserves_Econometric_Analysis.pptx`](report/economic_analysis_reserve.pptx).
+
+<details>
+<summary><strong>See the impulse response functions (click to expand)</strong></summary>
+<br>
+<p align="center">
+  <img src="figures/irf_charts_2.png" width="700" alt="Full VECM system impulse responses across all five variables">
+</p>
+</details>
 
 ## Data
 
@@ -50,11 +72,14 @@ Source: [World Bank World Development Indicators](https://databank.worldbank.org
 ```
 .
 ├── notebook/
-│   └── Economic_Analysis.ipynb        # Full analysis, start to finish
+│   └── economic_analysis_reserves.ipynb        # Full analysis, start to finish
 ├── report/
-│   ├── Nigeria_Reserves_Econometric_Report.docx
-│   └── Nigeria_Reserves_Econometric_Analysis.pptx
+│   ├── economic_analysis_reserves.docx
+│   └── economic_analysis_reserve.pptx
 ├── figures/                           # Exported charts used in the report/deck
+│   ├── raw_series_charts_2.png
+│   ├── fevd_charts_3.png
+│   └── irf_charts_2.png
 ├── requirements.txt
 └── README.md
 ```
@@ -62,10 +87,10 @@ Source: [World Bank World Development Indicators](https://databank.worldbank.org
 ## Running the Analysis
 
 ```bash
-git clone https://github.com/<your-username>/nigeria-reserves-vecm.git
+git clone https://github.com/<RidwanOkeshola>/nigeria-reserves-vecm.git
 cd nigeria-reserves-vecm
 pip install -r requirements.txt
-jupyter notebook notebook/Economic_Analysis.ipynb
+jupyter notebook notebook/economic_analysis_reserves.ipynb
 ```
 
 ## Limitations
@@ -74,9 +99,9 @@ Twenty annual observations is a small sample for a five-variable VECM/VAR system
 
 ## Author
 
-**Ridwan** — Financial Analytics Facilitator, 10Alytics · MSc Financial Engineering Candidate, WorldQuant University
+**Ridwan Okeshola** — Financial/ Economic Analyst
 
-Feedback and questions welcome — feel free to open an issue or connect on [LinkedIn](#).
+Feedback and questions welcome — feel free to open an issue or connect on [www.linked.com/in/ridwanokeshola](#).
 
 ## License
 
